@@ -40,7 +40,14 @@ video{
   top: 59px;
   left: 10px;
 }
-
+.retoursommaire a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.retoursommaire a::after {
+  content: "↑";
+}
 h1 {
   
   font-size: 48px;
